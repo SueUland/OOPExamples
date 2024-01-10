@@ -10,11 +10,12 @@ public class Coffee extends Object {
 
     // constructors what we need to construct a coffee object?
 
-    public Coffee(String myFlavor){
+    public Coffee(String myFlavor) {
         isIced = false;
         flavor = myFlavor;
         size = 0;
     }
+
     public boolean isIced() {
         return isIced;
     }
